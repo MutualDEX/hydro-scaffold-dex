@@ -2,9 +2,9 @@ package admincli
 
 import (
 	"fmt"
-	"github.com/HydroProtocol/hydro-scaffold-dex/backend/models"
-	"github.com/HydroProtocol/hydro-sdk-backend/sdk/ethereum"
-	"github.com/HydroProtocol/hydro-sdk-backend/utils"
+	"github.com/BigSwap-Finance/hydro-scaffold-dex/backend/models"
+	"github.com/BigSwap-Finance/hydro-sdk-backend/sdk/ethereum"
+	"github.com/BigSwap-Finance/hydro-sdk-backend/utils"
 	"net"
 	"net/http"
 	"net/url"
