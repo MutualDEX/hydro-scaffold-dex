@@ -6,7 +6,7 @@
   "dependencies": {
     "bignumber.js": "^9.0.0",
     "ethers": "^4.0.36",
-    "web3": "^1.2.1"
+    "web3": "^1.2.1",
     "@gongddex/hydro-sdk-wallet": "0.0.57",
     "@wangleiddex/hydro-sdk-charts": "0.1.6",
     "axios": "^0.18.0",
