@@ -1,12 +1,15 @@
 {
   "name": "start-kit",
   "version": "0.1.0",
+  "main": "index.js",
   "private": true,
   "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "ethers": "^4.0.36",
+    "web3": "^1.2.1"
     "@gongddex/hydro-sdk-wallet": "0.0.57",
     "@wangleiddex/hydro-sdk-charts": "0.1.6",
     "axios": "^0.18.0",
-    "bignumber.js": "^8.1.1",
     "immutable": "^4.0.0-rc.12",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
@@ -21,6 +24,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "example": "ETHEREUM_NODE_URL=https://mainnet.infura.io/v3/eda3324f594d4892bfddd7d165358aa8 node examples/reader.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
