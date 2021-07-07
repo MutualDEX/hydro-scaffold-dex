@@ -4,6 +4,11 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
+    "@davidqhr/ganache-cli": "6.4.3",
+    "debug": "^4.1.1",
+    "ethereumjs-util": "^5.2.0",
+    "truffle": "5.0.22",
+    "truffle-hdwallet-provider": "^1.0.12",
     "bignumber.js": "^9.0.0",
     "ethers": "^4.0.36",
     "web3": "^1.2.1",
@@ -24,6 +29,11 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "test": "DEBUG=GasUsed truffle test",
+    "migrate": "truffle migrate",
+    "compile": "truffle compile",
+    "coverage": "solidity-coverage",
+    "node": "ganache-cli -l 0x1fffffffffffff -g 1 --allowUnlimitedContractSize -m \" elephant potato mind luggage remind desk tourist valve license flame favorite tilt\"",
     "example": "ETHEREUM_NODE_URL=https://mainnet.infura.io/v3/eda3324f594d4892bfddd7d165358aa8 node examples/reader.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,6 +51,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "ethereumjs-abi": "^0.6.7",
+    "ethers": "^4.0.29",
+    "prettier": "1.17.1",
+    "@davidqhr/solidity-coverage": "0.6.0-beta.7",
     "babel-eslint": "9.0.0",
     "eslint": "5.12.0",
     "eslint-plugin-react": "^7.12.4"
