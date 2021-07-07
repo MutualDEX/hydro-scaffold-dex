@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import examples from './example.js';
 import { loadMarkets, loadTradeHistory } from './actions/markets';
 import Header from './components/Header';
 import WebsocketConnector from './components/WebsocketConnector';
