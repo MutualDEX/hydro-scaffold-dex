@@ -2,11 +2,18 @@
 
 # dependencies
 /node_modules
+build
+.idea
+.vscode
 /.pnp
 .pnp.js
 
 # testing
 /coverage
+coverage.json
+coverageEnv
+scTopics
+allFiredEvents
 
 # production
 /build
@@ -21,3 +28,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+scripts/*_tmp.js
