@@ -212,4 +212,4 @@ services:
     restart: on-failure:10
     logging:
       <<: *logging_default
-     
+    
