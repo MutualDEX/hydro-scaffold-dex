@@ -212,10 +212,4 @@ services:
     restart: on-failure:10
     logging:
       <<: *logging_default
-      
-    web:
-    build: .
-    ports:
-      - "5000:5000"
-  redis:
-    image: "redis:alpine"
+     
